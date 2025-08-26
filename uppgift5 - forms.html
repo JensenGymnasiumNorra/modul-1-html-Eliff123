@@ -24,14 +24,85 @@ Se till att när man klickar på submit-knappen i formuläret så ska tack.html 
 <html>
 
 <head>
+    
     <meta charset="UTF-8">
     <title></title>
 </head>
 
-<body>
-<table> boader="1" width="50%"
-    <tr></tr>
+<body style="background-color: rgb(241, 216, 220);"> </div>
 
+    <h1 style="column-rule-color: aqua;" align="center" >  VÄLKOMMEN </h1>
+ 
+
+    <form action="tack.html" method="get">
+
+        <Fieldset style="background-color: pink;" align="center">
+        <label for="The creator of this page"> The creator of this page</label> 
+         <input type="text" id=" The creator of this page " name="The creator of this page" value="Elif" >
+         </Fieldset>
+
+         <br> <br>
+
+        <fieldset style="width: 20%;">
+
+            <legend style="background-color: pink;">Namn</legend>
+        <label for="fullname "> Full Name : </label> <br>
+        <input type="text" id="fname" name="fname" value=""> <br>
+        
+    
+        <label for="password-input"> Password: </label> <br>
+        <input type="password" id=" password-input " name="password-input" > <br> <br>
+
+        </fieldset><br>
+
+        <fieldset>
+            <legend style="background-color: pink;">Gender</legend>
+            <label><input type="radio" name="gender" id="man">Man</label> <br>
+            <label><input type="radio" name="gender" id="not-man">Not man</label> <br>
+            <label><input type="radio" name="gender" id="woman">Woman</label>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend style="background-color: pink;" > Age</legend>
+            <label> <input type= "checkbox" name="age" id="old"> 16-18 </label> <br>
+            <label> <input type= "checkbox" name="age" id="older"> 18-20 </label> <br>
+            <label> <input type= "checkbox" name="age" id="oldest"> 20-22 </label> <br>
+        </fieldset>
+     
+        <br>
+
+        <fieldset> 
+            <legend style="background-color: pink;">How Much Do You Like Our SChool</legend>
+            <label> 0<input type="range" name="prefrences" id="liking of the school">  
+         </fieldset>
+
+<br>
+
+         <fieldset> 
+            <legend style="background-color: pink;">You'r pet</legend>
+            <select name="animals" id="animals">
+                <option value="...">...</option>
+                <option value="dog">Dog</option>
+                <option value="cat">cat</option>
+            </select>
+
+         </fieldset>
+
+
+
+
+        <input type="submit" id="button1" name="button" value="Submit"> 
+        
+
+ 
+
+
+
+    
+     </form>
 </body>
 
 </html>
