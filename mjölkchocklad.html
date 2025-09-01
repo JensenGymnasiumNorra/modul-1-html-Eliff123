@@ -1,4 +1,32 @@
 
+
+
+<!--
+Slutuppgift: Receptsida
+Skapa en receptsida med HTML där du använder de olika HTML-elementen du lärt dig under modul 1. 
+
+Du ska skapa en receptsida med minst 3 recept + startsida
+
+Startsidan ska innehålla: Klar 
+    - En header med titeln “Receptsida”
+    - En kort introduktion om vad sidan handlar om
+    - En oordnad lista med länkar till de olika recepten
+    - En bild som representerar matlagning eller recept
+    
+Varje recept-sida ska innehålla följande delar:
+    - Högst upp ska det finnas en länk till “receptsida.html” som det står “Tillbaka hem” på. klar
+    - En header med receptets namn klar 
+    - En kort paragraf om vad detta recept är för något och varför det är gott klar 
+    - En bild på maträtten   klar 
+    - En oordnad lista över ingredienserna som receptet innehåller
+    - En ordnad lista som steg för steg förklarar receptet
+    - En tabell med varje ingrediens och hur många kalorier det innehåller
+    - Ett formulär där personer som läser receptet kan ge kommentarer (Ska ej fungera, bara formuläret ska finnas)
+    - Använd div och span där det behövs (Minst 1 gång ska det finnas)
+    - Tydliga kommentarer som förklarar varje sektion (“T.ex. en oordnad lista över alla ingredienser”)
+    
+-->
+
 <!DOCTYPE html>
 <html>
 
@@ -9,18 +37,19 @@
 </head>
 <body style="background-color: rgb(255, 222, 228);">
 
-    <form action="slutuppgif-receptsida.html">
+    <form action="slutuppgift-receptsida.html">
     <input type="submit" value="Tillbaka hem">
     </form>
 
 
-   <div style ="background-color: pink;" id="Formulär" align="center">
+   <div style ="background-color: pink;" id="Formulär" align="center"> <!--- Här så sätter jag ett streck med färg bakom rubriken-->
         <h1> Mjölk Chocklad Subway Cookies  </h1>
 
     </div></a>
 
 
-<div align="center">
+
+<div align="center"> <!--- här så skriver jag första paragrafen med p1, jag sätter breacks imellan för att hoppa till nästa rad. jag sätter även align=center för att jag vill ha texten centrerad-->
     <p1> Idag dyker vi ner i ett recept så magiskt att det skulle kunna få Prins Charmig att glömma allt om Askungen. <br>För låt oss vara ärliga – om en enda sko kunde vinna ett hjärta, tänk då vad en bit av den här chokladkakskakan skulle kunna göra! <br> <br><br>
 
 Men innan vi börjar vispa och baka vill jag dela med mig av en liten hemlighet… <br>
@@ -31,11 +60,94 @@ Faktum är att just det här receptet en gång hamnade i rampljuset och till och
 
 Och i den här mästarklassen ska jag visa dig steg för steg hur du skapar din egen sagolika dessert en som folk kommer att jaga dig för, <br> bedjande om receptet.
 
-Så, ta på dig förklädet, strö lite magi i köket och låt oss baka något oförglömligt! ✨</p1>
+Så, ta på dig förklädet, strö lite magi i köket och låt oss baka något oförglömligt! <br> <span> Välkommen!</span> ✨</p1>
 
 </div>
-    
+
+
+<div align="center">
+<img src="mjölkRIKTIG.jpg"  style="width: 300px;" >
+    </div>
+
+<ul>  <!-- här skriver jag en unlisted lista dvs en olistad utan siffror-->
+  
+    <li>
+Vanliga Subway cookies med mörk choklad: <br>
+150 g smör<br>
+1 dl strösocker <br>
+1,25 dl farinsocker<br>
+2 tsk vaniljsocker<br>
+1 ägg<br>
+3,5 dl vetemjöl<br>
+0,5 tsk salt<br>
+0,5 tsk bikarbonat<br>
+150 g mörk choklad (55% kakaohalt)</li>
+</ul>
    
+
+<ul> <!-- här skriver jag en unlisted lista dvs en olistad utan siffror-->
+  
+
+<li>
+ <div align="center">  <!-- här sätter jag upp beskrivningen på hur man bakar genom att använda mig av en olistad lista- med en linje(rad) -->
+    Sätt ugnen på 175 grader (över- och undervärme) och täck två plåtar med bakplåtspapper. <br>
+Smält smöret i en kastrull på medelvärme. <br>
+Vispa ihop strösocker, vaniljsocker, ägg och farinsocker/ljus sirap (beroende på vilken smak du gör) till en krämig smet med elvisp. Tillsätt det smälta smöret och fortsätt vispa tills det går ihop till en jämn smet. <br>
+Ha sedan ner vetemjöl, salt och bikarbonat (gör du mörka subway cookies ska du även ha i kakao i detta steg). Rör ihop till en kladdig deg med slickepott. <br>
+Grovhacka den choklad eller de nötter du ska smaksätta dina kakor med. Ha ner dem i bunken och rör om tills allt fördelat sig jämnt i degen.<br>
+Plasta in bunken för varje smak och låt stå i kylskåpet i minst 20 min. <br>
+Rulla degen till lika stora bollar eller använd en glasskopa för att fördela lika mycket deg till varje kaka. Lägg kakbollarna på plåtarna med generöst med mellanrum mellan dem då de flyter ut under gräddning. <br>
+Grädda en plåt i taget i mitten av ugnen i 10-12 minuter eller tills kakorna blivit matta i färgen och fått en gräddad kant. Ska du dekorera kakorna med ännu mer choklad så kan du göra det när de precis kommit ut ur ugnen och är supervarma så att chokladen fäster. <br>
+Låt kakorna svalna helt och hållet på plåten innan du serverar dem eller förvarar i lufttät burk i kylskåpet.
+</li>
+</div>
+</ul>
+
+<table border="1" width="20%">  <!-- här sätter jag upp tabellen och ändrar storleken på vare kolumm -->
+
+    <tr></tr>
+<th colspan="0.5"> Ingredienser </th>
+<th colspan="0.5"> Kalori mängd per 100g</th>
+
+</tr>
+
+<tr>
+<td> Ägg</td>
+<td> 180</td>
+
+</tr>
+
+<tr>
+<td> SOcker ( båda sorter)</td>
+<td> 180</td>
+
+</tr>
+
+<tr>
+<td> smör</td>
+<td> 180</td>
+
+</tr>
+
+</table>
+
+
+ <fieldset style="width: 20%;">  <!-- Här sätter jag upp en tabell genom att använda labels och input ställen för att användaren ska kunna skriva -->
+
+            <legend style="background-color: pink;">Feedback </legend>
+        <label for="fullname "> Namn: </label> <br>
+        <input type="text" id="fname" name="fname" value=""> <br>
+        
+    
+        <label for="password-input"> Feedback: </label> <br>
+        <input type="password" id=" password-input " name="password-input" > <br> <br>
+
+        </fieldset><br>
+
+        <input type="submit" id="button1" name="button" value="Submit">  <!-- Här sätter jag en buttun så att de kan sub,itta-->
+
+
+
 </body>
 </html>
 
